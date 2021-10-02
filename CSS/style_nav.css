@@ -1,0 +1,48 @@
+
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+  }
+
+ul li {
+    margin: 0 10px;
+    float: right;
+    font-weight: 100; 
+    text-align: center; 
+  }
+
+  .udetail
+{
+    float: left;
+    margin: 0 10px;
+    display: block;
+    color: black;
+    text-align: center;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+.udetail img{
+    width: 30px;
+}
+ul li a:hover
+{
+    color: red;
+    
+}
+@media screen and (max-width: 600px) {
+    ul li,
+    .udetail{float: none;}
+}
